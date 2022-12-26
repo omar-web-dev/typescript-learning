@@ -16,4 +16,7 @@ users = [
         cell: "01970299035"
     },
 ];
+var userOne;
+userOne = { userName: "Shawn", age: 23, cell: "01970299035" };
+users.push(userOne);
 console.log(users);
